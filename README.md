@@ -2,6 +2,10 @@
 ![meteor react screenshot macosx](https://raw.githubusercontent.com/redcap3000/meteor-react-electron-boilerplate/master/meteor-react-screenshot.png)
 Based on the simple 'mr-kanban' project this includes support for electron to create desktop applications.
 
+**Note**
+
+I'm not using the 'offical' meteor react package because it doesn't work properly; so I've added the dependencies to package.json and they can be installed using meteor npm install. Works for me but may be updated if MGD gets their stuff together and fixes their NPM/meteor issues. 
+
 Designed to allow for relatively easy prototyping. It initally makes use of package meteor-electron(https://github.com/electron-webapps/meteor-electron). But ultimately using something like Electrify (https://github.com/arboleya/electrify) to make the end-executable.
 
 So I am maintaining this repository to act as a starting point for a desktop-react based project.
