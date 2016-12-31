@@ -1,0 +1,141 @@
+body {
+  font-family: sans-serif;
+  background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-attachment: fixed;
+ 
+
+  font-size: 14px;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+}
+ 
+header,footer {
+  background: #d2edf4;
+  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  padding: 20px 15px 15px 15px;
+  //position: relative;
+}
+footer{
+  background-image: linear-gradient(to top, #d0edf5, #e1e5f0 100%);
+  clear:both;
+}
+
+#login-buttons {
+  display: block;
+}
+ 
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+ 
+form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+ 
+.new-contact input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding-right: 80px;
+  font-size: 1em;
+}
+ 
+.new-contact input:focus{
+  outline: 0;
+}
+ 
+.lane{
+  float:left;
+  width:30%;
+  margin:1%;
+  text-align:center;
+  padding-bottom:8px;
+}
+
+.delete {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1em;
+  border: none;
+  position: relative;
+}
+ 
+li {
+  position: relative;
+  list-style: none;
+  padding: 5px 10px;
+  border-bottom: #eee solid 3px;
+}
+ 
+li .text {
+  margin-left: 10px;
+}
+ 
+li.checked {
+  color: #888;
+}
+ 
+li.checked .text {
+  text-decoration: line-through;
+}
+ 
+li.private {
+  background: #eee;
+  border-color: #ddd;
+}
+ 
+header .hide-completed {
+  float: right;
+}
+ 
+.toggle-private {
+  margin-left: 5px;
+}
+
+@media (max-width: 600px) {
+  li {
+    padding: 12px 15px;
+  }
+ 
+  .search {
+    width: 150px;
+    clear: both;
+  }
+ 
+  .new-contact input {
+    padding-bottom: 5px;
+  }
+}
+
+input.firstN,input.lastN{
+  width:50%;
+  float:left;
+}
+.editor{
+  border:solid gray 3px;
+  padding:4px;
+  display:absolute;
+  top:0;
+  float:left;
+}
+.editor input, .editor button{
+  float:left;
+  clear: both;
+}
+.text{
+  padding-left:4px;
+}
